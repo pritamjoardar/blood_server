@@ -5,7 +5,7 @@ const {Authenticate,AuthorizeRoles} = require("../middleware/authenticate");
 const router = express.Router();
 
 router.get('/',(req,res)=>{
-    res.send("Hello pritam");
+    res.status(200).send("Hello pritam");
 })
 
 
