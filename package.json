@@ -6,6 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
+    "dev": "nodemon server.js",
+
     "build": "webpack"
   },
   "keywords": [],
@@ -20,8 +22,6 @@
     "mongoose": "^7.3.1",
     "react-select": "^5.7.3",
     "yarn": "^1.22.19"
-  },
-  "engines": {
-    "node": ">=14.20.1"
   }
+ 
 }
